@@ -6,13 +6,14 @@
 	box-sizing: border-box;
 }
 body {
-	/* background-image: url("image1.webp"); */
+	/*background-image: url("image1.webp");*/
 	background-color: black;
 	color: #fac5b8;
 	font-size: 1.25rem;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url("bg.jpg");
+	/*background-image: url("bg.jpg");*/
+
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -50,7 +51,7 @@ body {
 
 .typeAnswer {
 	position: fixed;
-	bottom: 10%;
+	bottom: 20%;
 	width: 18.74rem;
 	border: 0.15px solid #73ad21;
 }
@@ -183,6 +184,28 @@ th {
 }
 #thirdPlanetContainer {
 	left: 42.5px;
+}
+
+.audioButtons {
+	align-items: center;
+	color: black;
+	font-family: "Arial";
+	font-size: small;
+	width: 6rem;
+	margin: 1rem 0 auto;
+	padding: 0.6rem;
+	border-radius: 1.8rem;
+	border: 0.1rem solid black;
+	box-shadow: none;
+	text-align: center;
+}
+.audioButtons:hover {
+	background-color: #73ad21;
+}
+.audioButtons:active {
+	background-color: white;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
 
 @keyframes rotate {
